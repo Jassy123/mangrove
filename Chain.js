@@ -3,8 +3,8 @@ class Chain{
         var options = {
             bodyA : bodyA,
             pointB : pointB,
-            stiffness: 0.04,
-            length: 20,       
+            stiffness: 0.004,
+            length: 1,       
         }
         this.pointB = pointB;
         this.chain = Constraint.create(options);
